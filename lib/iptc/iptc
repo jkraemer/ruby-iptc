@@ -1,0 +1,57 @@
+RecordVersion	Version of IIM part 2	0	0x0000	Yes	No	2	2	Iptc.Application2.RecordVersion
+ObjectType	IIM appendix G object type	3	0x0003	No	No	3	67	Iptc.Application2.ObjectType
+ObjectAttribute	IIM appendix G object attribute	4	0x0004	No	Yes	4	68	Iptc.Application2.ObjectAttribute
+ObjectName	Shorthand reference of content	5	0x0005	No	No	0	64	Iptc.Application2.ObjectName
+EditStatus	Content status	7	0x0007	No	No	0	64	Iptc.Application2.EditStatus
+EditorialUpdate	Indicates the type of update	8	0x0008	No	No	2	2	Iptc.Application2.EditorialUpdate
+Urgency	Editorial urgency of content	10	0x000a	No	No	1	1	Iptc.Application2.Urgency
+Subject	Structured definition of the subject	12	0x000c	No	Yes	13	236	Iptc.Application2.Subject
+Category	Identifies the subject	15	0x000f	No	No	0	3	Iptc.Application2.Category
+SuppCategory	Refines the subject	20	0x0014	No	Yes	0	32	Iptc.Application2.SuppCategory
+FixtureId	Identifies content that recurs	22	0x0016	No	No	0	32	Iptc.Application2.FixtureId
+Keywords	Information retrieval words	25	0x0019	No	Yes	0	64	Iptc.Application2.Keywords
+LocationCode	ISO country code for content	26	0x001a	No	Yes	3	3	Iptc.Application2.LocationCode
+LocationName	Full country name for content	27	0x001b	No	Yes	0	64	Iptc.Application2.LocationName
+ReleaseDate	Earliest intended usable date	30	0x001e	No	No	8	8	Iptc.Application2.ReleaseDate
+ReleaseTime	Earliest intended usable time	35	0x0023	No	No	11	11	Iptc.Application2.ReleaseTime
+ExpirationDate	Latest intended usable date	37	0x0025	No	No	8	8	Iptc.Application2.ExpirationDate
+ExpirationTime	Latest intended usable time	38	0x0026	No	No	11	11	Iptc.Application2.ExpirationTime
+SpecialInstructions	Editorial usage instructions	40	0x0028	No	No	0	256	Iptc.Application2.SpecialInstructions
+ActionAdvised	Action provided to previous data	42	0x002a	No	No	2	2	Iptc.Application2.ActionAdvised
+ReferenceService	Service Identifier of a prior envelope	45	0x002d	No	Yes	0	10	Iptc.Application2.ReferenceService
+ReferenceDate	Date of a prior envelope	47	0x002f	No	Yes	8	8	Iptc.Application2.ReferenceDate
+ReferenceNumber	Envelope Number of a prior envelope	50	0x0032	No	Yes	8	8	Iptc.Application2.ReferenceNumber
+DateCreated	Creation date of intellectual content	55	0x0037	No	No	8	8	Iptc.Application2.DateCreated
+TimeCreated	Creation time of intellectual content	60	0x003c	No	No	11	11	Iptc.Application2.TimeCreated
+DigitizationDate	Creation date of digital representation	62	0x003e	No	No	8	8	Iptc.Application2.DigitizationDate
+DigitizationTime	Creation time of digital representation	63	0x003f	No	No	11	11	Iptc.Application2.DigitizationTime
+Program	Content creation program	65	0x0041	No	No	0	32	Iptc.Application2.Program
+ProgramVersion	Content creation program version	70	0x0046	No	No	0	10	Iptc.Application2.ProgramVersion
+ObjectCycle	Morning	75	0x004b	No	No	1	1	Iptc.Application2.ObjectCycle
+Byline	Name of content creator	80	0x0050	No	Yes	0	32	Iptc.Application2.Byline
+BylineTitle	Title of content creator	85	0x0055	No	Yes	0	32	Iptc.Application2.BylineTitle
+City	City of content origin	90	0x005a	No	No	0	32	Iptc.Application2.City
+SubLocation	Location within city	92	0x005c	No	No	0	32	Iptc.Application2.SubLocation
+ProvinceState	Province/State of content origin	95	0x005f	No	No	0	32	Iptc.Application2.ProvinceState
+CountryCode	ISO country code of content origin	100	0x0064	No	No	3	3	Iptc.Application2.CountryCode
+CountryName	Full country name of content origin	101	0x0065	No	No	0	64	Iptc.Application2.CountryName
+TransmissionReference	Location of original transmission	103	0x0067	No	No	0	32	Iptc.Application2.TransmissionReference
+Headline	Content synopsis	105	0x0069	No	No	0	256	Iptc.Application2.Headline
+Credit	Content provider	110	0x006e	No	No	0	32	Iptc.Application2.Credit
+Source	Original owner of content	115	0x0073	No	No	0	32	Iptc.Application2.Source
+Copyright	Necessary copyright notice	116	0x0074	No	No	0	128	Iptc.Application2.Copyright
+Contact	Person or organisation to contact	118	0x0076	No	Yes	0	128	Iptc.Application2.Contact
+Caption	Content description	120	0x0078	No	No	0	2000	Iptc.Application2.Caption
+Writer	Person responsible for caption	122	0x007a	No	Yes	0	32	Iptc.Application2.Writer
+RasterizedCaption	Black and white caption image	125	0x007d	No	No	7360	7360	Iptc.Application2.RasterizedCaption
+ImageType	Color components in an image	130	0x0082	No	No	2	2	Iptc.Application2.ImageType
+ImageOrientation	Indicates the layout of an image	131	0x0083	No	No	1	1	Iptc.Application2.ImageOrientation
+Language	ISO 639:1988 language code	135	0x0087	No	No	2	3	Iptc.Application2.Language
+AudioType	Information about audio content	150	0x0096	No	No	2	2	Iptc.Application2.AudioType
+AudioRate	Sampling rate of audio content	151	0x0097	No	No	6	6	Iptc.Application2.AudioRate
+AudioResolution	Sampling resolution of audio content	152	0x0098	No	No	2	2	Iptc.Application2.AudioResolution
+AudioDuration	Duration of audio content	153	0x0099	No	No	6	6	Iptc.Application2.AudioDuration
+AudioOutcue	Final words or sounds of audio content	154	0x009a	No	No	0	64	Iptc.Application2.AudioOutcue
+PreviewFormat	IIM appendix A file format of preview	200	0x00c8	No	No	2	2	Iptc.Application2.PreviewFormat
+PreviewVersion	File format version of preview	201	0x00c9	No	No	2	2	Iptc.Application2.PreviewVersion
+Preview	Binary preview data	202	0x00ca	No	No	0	256000	Iptc.Application2.Preview

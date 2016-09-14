@@ -50,8 +50,10 @@ module IPTC
               @type = @content.read(2)
               @size = @content.read(2).unpack('n')[0]-2
             
-              if !valid?
-                  raise InvalidBlockException.new("In block #{self.class}: invalid marker\n#{@content.read(20)}")
+              if !data.include?('JFXX')
+                if !valid?
+                    raise InvalidBlockException.new("In block #{self.class}: invalid marker\n#{@content.read(20)}")
+                end
               end
 
               @prefix = self.class.to_s
